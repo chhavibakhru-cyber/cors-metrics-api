@@ -13,7 +13,7 @@ app.add_middleware(
     allow_origins=[ALLOWED_ORIGIN],
     allow_credentials=True,
     allow_methods=["GET"],
-    allow_headers=["*"],
+    allow_headers=["GET"],
 )
 
 EMAIL = "25f1002355@ds.study.iitm.ac.in" 
